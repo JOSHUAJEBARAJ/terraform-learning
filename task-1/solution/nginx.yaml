@@ -1,0 +1,45 @@
+---
+- hosts: all
+  name: Nginx Install Playbook
+  become: true
+  vars:
+    document_root: /var/www
+    root_folder: /var/www/example.com
+    host_ip: "{{ ansible_default_ipv4.address }}"
+  tasks:
+   - name: Install nginx 
+     apt:
+      name: nginx
+      state: latest
+      update_cache: yes
+   - name: Create the directory
+     file:
+       path: "{{root_folder}}"
+       state: directory
+   - name: Copy the file
+     template:
+        src: index.j2
+        dest: "{{ document_root }}/example.com/index.html"
+   - name: Applying the Nginx 
+     template:
+        src: conf.j2
+        dest: /etc/nginx/sites-available/default
+     notify: Restart Nginx 
+   - name: Enable new site
+     file:
+        src: /etc/nginx/sites-available/default
+        dest: /etc/nginx/sites-enabled/default
+        state: link
+     notify: Restart Nginx
+   - name: Allow Firewall
+     ufw:
+        rule: allow
+        port: '80'
+        proto: tcp
+  handlers:
+    - name: Restart Nginx 
+      service:
+        name: nginx 
+        state: restarted 
+      
+   
