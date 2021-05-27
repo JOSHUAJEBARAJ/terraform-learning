@@ -1,0 +1,14 @@
+
+server {
+  listen 80;
+
+  root {{ root_folder }};
+  index index.html index.htm;
+
+  server_name {{ host_ip }};
+
+  location / {
+   default_type "text/html";
+   try_files $uri.html $uri $uri/ =404;
+  }
+}

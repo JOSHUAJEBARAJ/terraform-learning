@@ -15,12 +15,18 @@ chmod 600  do_key
 
 Create the new file named`terraform.tfvars` 
 
-Add the below content 
+Add the below content to the created file
 
 ```
 do_token = "<token-value>"
 ```
-Now Type the below command 
+
+Now Install the role by typing  the below command
+
+```
+ansible-galaxy install joshuajebaraj.ansible_role_gitea
+```
+Now Type the below command  in the terminal to provision the environment 
 
 ```
 terraform init
@@ -34,11 +40,9 @@ terraform plan -out state.plan
 terraform apply "state.plan"
 ```
 
-Once everything is done On hitting your ip You will see 
+Once everything is done On hitting your `ip:3000` You will see the gitea Instance
 
-```
-Welcome to <IP-ADDRESS>
-```
+
 Once everything is done make sure to tear down the infra using the below command
 
 ```
@@ -47,4 +51,5 @@ terraform destroy -auto-approve
 
 ## References
 1. https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management
-2. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-static-html-website-with-ansible-on-ubuntu-20-04-nginx
+2. https://galaxy.ansible.com/joshuajebaraj/ansible_role_gitea
+

@@ -1,0 +1,6 @@
+---
+- hosts: all
+  name: Git Tea Install Playbook 
+  become: true
+  roles:
+   - joshuajebaraj.ansible_role_gitea
