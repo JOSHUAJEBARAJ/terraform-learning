@@ -1,6 +1,6 @@
 ## Solution-2
 
-The code for this task can be found [here]
+The code for this task can be found [here](https://github.com/JOSHUAJEBARAJ/terraform-learning/tree/main/task-2/solution)
 
 ## Pre-Task
 
@@ -44,7 +44,7 @@ terraform apply "state.plan"
 ```
 
 
-Once everything is done you will see the **Ip address** of the loadbalancer as the terraform output. Navigate to the ip address using the browser
+Once everything is done you will see the **Ip address** of the loadbalancer as the terraform output. Navigate to the Ip address using the browser
 
 
 On Hitting the IP address of the Loadbalancer

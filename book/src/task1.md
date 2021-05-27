@@ -1,8 +1,8 @@
 ## Task-1
 
-- [ ]  For this Task you have to create the Simple droplet in the [Digital-Ocean](https://www.digitalocean.com/) using Terraform
+- [ ]  For this Task you have to create the simple droplet in the [Digital-Ocean](https://www.digitalocean.com/) using Terraform
 - [ ]  Install the [Nginx](https://www.nginx.com/) on the created droplet
-- [ ]  Replace the default `nginx-website` with the `new-website`
+- [ ]  Replace the default `Nginx-website` with the `new-website`
 
 
 

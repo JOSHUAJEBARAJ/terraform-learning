@@ -1,8 +1,8 @@
 # Solution-5
 
-The code for this task can be found [here]
+The code for this task can be found [here](https://github.com/JOSHUAJEBARAJ/terraform-learning/tree/main/task-5/solution)
 
-For this task you need to have **Docker**  installed on your system If you don't have docker Install it by following this [guide](https://docs.docker.com/engine/install/)
+For this task, you need to have **Docker**  installed on your system If you don't have docker Install it by following this [guide](https://docs.docker.com/engine/install/)
 
 
 ## Task

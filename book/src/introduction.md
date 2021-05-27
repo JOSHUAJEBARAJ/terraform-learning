@@ -11,7 +11,7 @@ This project was developed during the learning process of the [terraform](https:
 
 ## Why this project ?  🤔
 
-When I started to learning Terraform I want to create the simple projects around it but when I google it I couldn't able to find one what I am Looking for . So I created one 
+When I started to learning Terraform I want to create  simple projects around it but when I google it I couldn't able to find one what I am ;looking for ,so I created one. 
 
 ## Below are the List of projects
 
@@ -19,6 +19,7 @@ When I started to learning Terraform I want to create the simple projects around
 - [Task-2](./task2.md)
 - [Task-3](./task3.md)
 - [Task-4](./task4.md)
+- [Task-5](./task5.md)
 
 
 
@@ -26,7 +27,7 @@ Some of  the projects ideas were taken from the **Michael Crilly** Youtube video
 
 ## Contribution
 
-If you want to contribute to the project here are the few ways that you can contribute 
+If you want to contribute to the project here are a few ways that you can contribute 
 
 - Sharing the word with your friends about this Project
 - Create more task for the project

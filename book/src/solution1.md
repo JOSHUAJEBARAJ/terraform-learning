@@ -1,6 +1,6 @@
 ## Solution-1
 
-The code for this task can be found [here]
+The code for this task can be found [here](https://github.com/JOSHUAJEBARAJ/terraform-learning/tree/main/task-1/solution)
 
 ## Pre-Task
 

@@ -1,6 +1,6 @@
 ## Solution-4
 
-The code for this task can be found [here]
+The code for this task can be found [here](https://github.com/JOSHUAJEBARAJ/terraform-learning/tree/main/task-4/solution)
 
 ## Pre-Task
 
@@ -37,9 +37,9 @@ terraform apply "state.plan"
 ```
 
 
-Once everything is done you will see the ip address of the compute instance as the terraform output. Navigate to the ip address using the browser
+Once everything is done you will see the IP address of the compute instance as the terraform output. Navigate to the IP address using the browser
 
-On hitting the ip-address you will see the `Nginx`  Welcome Page
+On hitting the IP-address you will see the `Nginx`  Welcome Page
 
 ## Post-task
 
